@@ -25,10 +25,11 @@ SECRET_KEY = (
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "8000-barkode-djangoblogci-3yvzt7vdbt0.ws.codeinstitute-ide.net",
+    ".herokuapp.com",
 ]
 
 
