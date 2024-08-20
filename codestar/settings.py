@@ -28,7 +28,7 @@ SECRET_KEY = (
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "8000-barkode-djangoblogci-3yvzt7vdbt0.ws.codeinstitute-ide.net"
+    "8000-barkode-djangoblogci-3yvzt7vdbt0.ws.codeinstitute-ide.net",
 ]
 
 
