@@ -32,8 +32,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True if os.environ.get("DEBUG") == "True" else False
 
 ALLOWED_HOSTS = [
-    "https://*.codeinstitute-ide.net",
-    "https://*.herokuapp.com",
+    ".codeinstitute-ide.net",
+    ".herokuapp.com",
     "localhost",
 ]
 
