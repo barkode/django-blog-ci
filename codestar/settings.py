@@ -32,8 +32,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True if os.environ.get("DEBUG") == "True" else False
 
 ALLOWED_HOSTS = [
-    "8000-barkode-djangoblogci-3yvzt7vdbt0.ws.codeinstitute-ide.net",
-    ".herokuapp.com",
+    "https://*.codeinstitute-ide.net",
+    "https://*.herokuapp.com",
+    "localhost",
 ]
 
 
