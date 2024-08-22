@@ -12,15 +12,10 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterModelOptions(
             name='comment',
-            options={'ordering': ['-created_on']},
+            options={'ordering': ['created_on']},
         ),
         migrations.AlterModelOptions(
             name='post',
-            options={'ordering': ['created_on']},
-        ),
-        migrations.RenameField(
-            model_name='comment',
-            old_name='create_on',
-            new_name='created_on',
+            options={'ordering': ['-created_on']},
         ),
     ]
