@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_summernote",
     "blog",
 ]
 
@@ -98,7 +99,7 @@ WSGI_APPLICATION = "codestar.wsgi.application"
 #     }
 # }
 
-DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))} # type: ignore
+DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}  # type: ignore
 
 
 # Password validation
