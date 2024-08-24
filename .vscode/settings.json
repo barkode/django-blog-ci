@@ -13,6 +13,6 @@
     "**/CVS": true
   },
   "files.autoSave": "onFocusChange",
-  "workbench.colorTheme": "Andromeda Italic",
+  "workbench.colorTheme": "Kanagawa",
   "terminal.integrated.gpuAcceleration": "auto"
 }
