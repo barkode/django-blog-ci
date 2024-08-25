@@ -5,6 +5,7 @@ click==8.1.7
 colorama==0.4.6
 dj-database-url==2.2.0
 Django==4.2.15
+django-allauth==64.1.0
 django-summernote==0.8.20.0
 gunicorn==23.0.0
 mypy-extensions==1.0.0
