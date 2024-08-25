@@ -1,5 +1,11 @@
-{% extends "base.html" %} {% load i18n %} {% block head_title %}{% trans "Sign
-Out" %}{% endblock %} {% block content %}
+{% extends "base.html" %}
+{% load i18n %}
+{% block head_title %}
+{% trans "Sign Out" %}
+{% endblock head_title %}
+
+{% block content %}
+
 <div class="container">
   <div class="row">
     <div class="col-md-8 mt-3 offset-md-2">
@@ -24,4 +30,5 @@ Out" %}{% endblock %} {% block content %}
     </div>
   </div>
 </div>
-{% endblock %}
+
+{% endblock content %}
